@@ -1,0 +1,10 @@
+/* Entry point for global styles. Import App.css which contains Tailwind directives and custom theme. */
+@import './App.css';
+
+/* Optional: small global resets to ensure fonts and base sizing render similarly to the preview */
+html, body, #root {
+	height: 100%;
+}
+* {
+	box-sizing: border-box;
+}
